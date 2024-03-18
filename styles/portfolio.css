@@ -1,0 +1,53 @@
+* {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* primary styles */
+
+.btn-primary {
+  background-color: rgb(255, 115, 64);
+  border: none;
+  color: white;
+  padding: 20px 30px 20px 30px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+/* header related styles */
+
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 70px 70px;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+nav > ul > li > a{
+  text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+
+nav > ul > li{
+    list-style: none;
+}
+
+.dev-name {
+  color: rgb(255, 115, 64);
+}
+
+h2 {
+  font-size: 45px;
+}
