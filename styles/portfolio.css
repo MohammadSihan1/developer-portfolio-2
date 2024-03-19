@@ -28,6 +28,10 @@
 
 header {
   background-color: #d9d9d9;
+  background-image: url("/images/developer.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 80px;  
 }
 
 .navbar {
@@ -35,6 +39,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 20px 70px 70px;
+  margin-left: 40px;
 }
 
 nav > ul {
@@ -71,6 +76,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   gap: 100px;
+  margin-left: 40px;
 }
 
 .hed-section > div > div > h2,
