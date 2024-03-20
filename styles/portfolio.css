@@ -69,10 +69,10 @@ h2 {
 
 .hed-section {
   padding: 20px 70px 70px;
-  /* background-image: url("/images/header_bg.png");
+  background-image: url("/images/header_bg.png");
   background-repeat: no-repeat;
-  background-size: 650px; */
-  /* background-position: right; */
+  background-size: 650px;
+  background-position: right;
   display: flex;
   justify-content: space-between;
   gap: 100px;
