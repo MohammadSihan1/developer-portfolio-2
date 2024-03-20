@@ -5,6 +5,10 @@
   font-style: normal;
 }
 
+body{
+  padding: 30px;
+}
+
 /* primary styles */
 
 .btn-primary {
@@ -117,6 +121,9 @@ p {
 
 /* About me section related styles */
 
+.about-me{
+  margin-top: 100px;
+}
 .about-me > h3{
   font-size: 35px;
   text-align: center;
@@ -132,4 +139,21 @@ p {
 
 .my-info-span{
   color: black;
+}
+
+/* What I Do section related styles */
+
+.whatIdo{
+  margin-top: 250px;
+}
+
+.whatIdo > h3{
+  font-size: 35px;
+  text-align: center;
+}
+
+.whtIdo-info{
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-evenly;
 }
