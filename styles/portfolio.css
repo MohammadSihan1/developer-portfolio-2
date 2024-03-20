@@ -5,7 +5,7 @@
   font-style: normal;
 }
 
-body{
+body {
   padding: 30px;
 }
 
@@ -35,7 +35,7 @@ header {
   background-image: url("/images/developer.png");
   background-repeat: no-repeat;
   background-position: left center;
-  background-size: 80px;  
+  background-size: 80px;
 }
 
 .navbar {
@@ -121,15 +121,15 @@ p {
 
 /* About me section related styles */
 
-.about-me{
+.about-me {
   margin-top: 100px;
 }
-.about-me > h3{
+.about-me > h3 {
   font-size: 35px;
   text-align: center;
 }
 
-.my-info{
+.my-info {
   display: flex;
   align-self: center;
   justify-content: space-evenly;
@@ -137,23 +137,55 @@ p {
   margin-top: 30px;
 }
 
-.my-info-span{
+.my-info-span {
   color: black;
 }
 
 /* What I Do section related styles */
 
-.whatIdo{
+.whatIdo {
   margin-top: 250px;
 }
 
-.whatIdo > h3{
+.whatIdo > h3 {
   font-size: 35px;
   text-align: center;
 }
 
-.whtIdo-info{
+.whtIdo-info {
   margin-top: 60px;
   display: flex;
   justify-content: space-evenly;
 }
+
+/* My resume summary related styles */
+
+.resume {
+  margin-top: 250px;
+}
+
+.resume > h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.my-resume{
+  margin-top: 110px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.my-resume > h3{
+  font-size: 25px;
+  color: #474747;
+}
+
+.my-resume > div{
+  margin-bottom: 30px;
+}
+
+.resume-edu{
+  margin-bottom: 60px;
+}
+
