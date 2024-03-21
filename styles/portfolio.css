@@ -189,3 +189,47 @@ p {
   margin-bottom: 60px;
 }
 
+/* footer related styles */
+
+.footer{
+  margin-top: 250px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.connect > h3{
+  margin-bottom: 30px;
+}
+
+.connect-icons{
+  margin-top: 30px;
+  display: flex;
+  width: 200px;
+  gap: 30px;
+  
+}
+
+.msg-me-heading{
+  font-size: 35px;
+}
+
+.input-msg-me{
+  border: none;
+  padding: 18px 150px 18px 30px;
+  font-size: 16px;
+  color: #757575;
+}
+
+.footer-main{
+  margin-top: 250px;
+  background-color: #757575;
+  color: azure;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px;
+}
+
+.address-name{
+  color: darkgoldenrod;
+}
