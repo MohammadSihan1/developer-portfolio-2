@@ -172,7 +172,7 @@ p {
 .my-resume{
   margin-top: 110px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   
 }
 
